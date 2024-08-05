@@ -42,6 +42,21 @@
     </header>
     <main class="container text-center">
         <h1 class="mb-3">Ejercicio 6: Temporizador</h1>
+        <section class="bg-black bg-gradient p-3">
+            <div class="container">
+                <h1 id="marcador" class="bg-primary-subtle rounded-5">00:00:00</h1>
+            </div>
+            <div class="input-container">
+                <input type="number" id="horas" class="form-control mb-2" placeholder="Horas" min="0">
+                <input type="number" id="minutos" class="form-control mb-2" placeholder="Minutos" min="0" max="59">
+                <input type="number" id="segundos" class="form-control mb-3" placeholder="Segundos" min="0" max="59">
+            </div>
+            <div class="btn-container">
+                <button id="start" class="btn btn-success">Iniciar</button>
+                <button id="pause" class="btn btn-warning">Pausar</button>
+                <button id="reset" class="btn btn-danger">Resetear</button>
+            </div>
+        </section>
     </main>
     <footer class="bg-secondary-subtle text-center py-3 mt-5">
         <p class="mb-0">Todos los derechos reservados &copy; 2024</p>
